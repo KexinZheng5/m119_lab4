@@ -38,7 +38,7 @@ class Game():
     # main window of the animation
     def create_animation_window(self):
         window = tkinter.Tk()
-        window.title("IMU Visualization Demo")
+        window.title("Pong (single player)")
         window.geometry(f'{self.window_width}x{self.window_height}')
         window.protocol("WM_DELETE_WINDOW", self.on_close)
         return window
